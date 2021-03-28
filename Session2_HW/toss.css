@@ -1,0 +1,83 @@
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
+
+* { font-family: 'Spoqa Han Sans Neo', 'sans-serif'; 
+    color: #464646;}
+body{
+    background-color: white;
+    width: 1000px;
+    
+}
+
+.name{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.layout{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.text{
+    width: 60%
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+.small-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 150px;
+}
+
+.big-text{
+    font-size: xx-large;
+    font-weight: bold;
+    margin-top: 80px;
+}
+
+.small-text{
+    font-size: medium;
+    font-weight:initial
+
+}
+
+#detail{
+    color: #1167b1;
+}
+
+.bank{
+    width: 500px;
+    height: 75px;
+    margin-top: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 30px 60px 12px rgba(0, 0, 33, 0.05), 0 4px 24px 0 rgba(0, 0, 33, 0.05), 0 0 1px 0 rgba(0, 0, 33, 0.09);
+}
+
+.logo{
+    margin-left: 10px;
+
+  
+}
+
+.money{
+    color: black;
+    font-weight:450;
+    margin-right: 20px;
+}
+
+.bank-name{
+    margin-left: 10px;
+}
