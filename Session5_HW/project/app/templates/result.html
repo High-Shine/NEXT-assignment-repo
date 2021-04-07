@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static%}
+    <link rel="stylesheet" type="text/css" href="{% static 'result.css' %}">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>결과 출력</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100&display=swap');
+        </style>
+    
+</head>
+<body>
+    <div class="layout">
+    <div class="header">
+        <h1>LIKELION_print(결과)</h1>
+    </div>
+    <div class="box">
+    <p>입력한 텍스트: {{text}}</p>
+    <p>글자수: {{total_len}}</p>
+    <p>공백제외: {{no_blank_len}}</p>
+    <p>단어의 개수:{{count_word}}</p>
+    </div>
+    <div>
+</body>
+</html>

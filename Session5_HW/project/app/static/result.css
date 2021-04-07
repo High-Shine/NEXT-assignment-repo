@@ -1,0 +1,55 @@
+*{font-family: 'Noto Sans KR', sans-serif;
+
+}
+
+
+.layout{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ECECEC;
+    height: 1000px;
+    
+}
+
+.header{
+   
+    border-bottom-color: black;
+    border-bottom-width: 8px;
+    border-bottom-style: solid;
+    padding: 5px 20px 0px 20px;
+}
+
+.answer{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+textarea{
+    resize: none;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin-top: 50px;
+    
+    border-color: black;
+    border-width: 0.2px;
+    border-style: solid;
+    padding: 30px 30px 30px 30px ;
+}
