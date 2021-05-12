@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+{% block css %} {% load static %}
+<link rel='stylesheet' type ='text/css' href='{% static 'home.css' %}'>
+{% endblock %}
+
+{% block title %}
+<h1>To-Do-List</h1>
+{% endblock title %}
+
+{% block content %}
+<div class="home">
+   
+    <div class="listbox">
+        <ul>
+            {% for post in posts %}
+            <div class="list"> 
+                <a href ="{% url 'detail' post.pk %}"> {{post.title}} </a>
+                <br>
+                <a id="duedate"> {{post.duedate}}</a>
+            </div>
+            {% endfor %}
+            
+        </ul>
+    </div>
+<a href="{% url 'new' %}" class="new">새 일정 추가</a>
+
+</div>
+
+
+{% endblock content %}

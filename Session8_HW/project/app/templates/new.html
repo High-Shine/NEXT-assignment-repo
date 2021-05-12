@@ -1,0 +1,35 @@
+
+{% extends 'base.html' %}
+{% block css %} {% load static %}
+<link rel='stylesheet' type ='text/css' href='{% static 'new.css' %}'>
+{% endblock %}
+
+{% block title %}
+<h1>Add Schedule</h1>
+{% endblock title %}
+
+{% block content %}
+
+<div class="newdoc">
+    <form action="" method="post">
+        {% csrf_token %}
+    <div class="submit">
+        <label for="title"> 제목 </label>
+        <input type='text' id ='title' name='title' placeholder="제목을 입력해주세요">
+    </div>
+    <div class="submit">
+        <label for='content'>세부사항</label>
+        <textarea name='content' id='content' cols='30' rows="10" placeholder="내용을 입력해주세요"></textarea>
+    </div>
+
+    <div class="submit">
+        <label for="duedate"> 마감기한 </label>
+        <input type='date' id ='duedate' name='duedate' placeholder="마감기한을 입력해주세요">
+    </div>
+    <div class="submit">
+    <button type='submit'>작성하기</button>
+    </div>
+    </form>    
+</div>
+
+{% endblock content %}
