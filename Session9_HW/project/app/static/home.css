@@ -1,0 +1,30 @@
+.home{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.list{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    
+}
+
+.new{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    border-style: solid;
+    border-width: 0.2px;
+}
+
+.listbox{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 120px;
+}
+
+#duedate{
+    font-size: 15px;
+}

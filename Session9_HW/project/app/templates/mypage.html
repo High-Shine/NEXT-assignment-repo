@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+{% block css %} {% load static %}
+<link rel='stylesheet' type ='text/css' href='{% static 'mypage.css' %}'>
+{% endblock %}
+
+{% block title %}
+<h1>Mypage</h1>
+{% endblock title %}
+{% block content %}
+<div>
+    <div>
+    <h2>내가 쓴 글</h2>
+    {% for post in posts %}
+    <div class="list"> 
+        {% if user.is_authenticated and post.author.pk == user.pk %}
+        <a href ="{% url 'detail' post.pk %}"> {{post.title}} </a>
+        <br>
+        <a id="duedate"> {{post.duedate}}</a>
+        {% endif %}
+    </div>
+    {% endfor %}
+    </div>
+    
+    <div>
+    <h2>내가 쓴 댓글</h2>
+    {% for post in posts %}
+        {% for comment in post.comments.all %}
+            {% if user.is_authenticated and comment.author.pk == user.pk %}
+            <div class="comment"> {{comment.content}}
+                
+                <a href="{% url 'delete_comment' post.pk comment.pk %}">삭제</a>
+                
+            </div>
+            {% endif %}
+        {% endfor %} 
+    {% endfor %}
+    </div>
+    
+    
+</div>
+{% endblock content %}
