@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 136.85106 68.93617">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        fill: #040000;
+      }
+
+      .cls-4 {
+        font-size: 40px;
+        fill: #fff;
+        font-family: Helvetica-CondensedBlack;
+        font-weight: 800;
+      }
+    </style>
+    <clipPath id="clip-path" transform="translate(0 0)">
+      <rect class="cls-1" width="136.85106" height="68.93617"/>
+    </clipPath>
+  </defs>
+  <title>Asset 3</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <g class="cls-2">
+        <rect class="cls-3" width="136.85106" height="68.93617"/>
+        <text class="cls-4" transform="translate(25.08147 48.42554)">KACA</text>
+        <rect class="cls-3" x="27.46266" y="16.56641" width="4.53794" height="15.40423" transform="translate(25.86863 -13.91535) rotate(45)"/>
+        <rect class="cls-3" x="60.65415" y="36.43875" width="4.53794" height="15.40423" transform="translate(49.64206 -31.56481) rotate(45)"/>
+        <rect class="cls-3" x="106.56905" y="35.28982" width="4.53794" height="15.40423" transform="translate(62.2778 -64.36806) rotate(45)"/>
+        <rect class="cls-3" x="85.86692" y="20.48131" width="4.53794" height="15.40423" transform="translate(45.74309 -54.06675) rotate(45)"/>
+        <rect class="cls-1" width="136.85106" height="68.93617"/>
+      </g>
+    </g>
+  </g>
+</svg>

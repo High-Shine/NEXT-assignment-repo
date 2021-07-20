@@ -1,0 +1,23 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17.85303 26.88721">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #d06a82;
+      }
+
+      .cls-2 {
+        fill: #494242;
+      }
+
+      .cls-3 {
+        fill: #6f72b5;
+      }
+    </style>
+  </defs>
+  <title>fabicon</title>
+  <g>
+    <polygon class="cls-1" points="6.301 0.001 6.31 0.009 6.31 0 0 0 0 6.302 6.301 0.001"/>
+    <polygon class="cls-2" points="9.593 22.603 14.233 17.963 11.759 11.866 17.496 0 11.042 0 6.381 10.755 6.31 10.755 6.31 5.79 0 12.1 0 26.887 6.31 26.887 6.31 20.255 7.708 17.531 9.593 22.603"/>
+    <polygon class="cls-3" points="11.164 26.83 11.185 26.887 17.853 26.887 15.906 22.088 11.164 26.83"/>
+  </g>
+</svg>
